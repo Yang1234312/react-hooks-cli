@@ -1,7 +1,7 @@
 {
-  "name": "das",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "da",
+  "description": "{{description}}",
   "main": "webpack.config.js",
   "dependencies": {
     "@babel/preset-react": "^7.12.10",
@@ -36,6 +36,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --inline --progress"
   },
-  "author": "",
+  "author": "{{author}}",
   "license": "ISC"
 }
